@@ -1,0 +1,138 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: white;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:blue;
+    color: white;
+}
+
+header .logo img {
+    height: 9/..0px;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav li {
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+#home {
+    position: relative;
+    text-align: center;
+    color: black;
+}
+
+.backgroud-color {
+    background-color: rgba(0,123,255,0.8);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+}
+
+.home-content {
+    padding-top: 200px;
+}
+
+#services {
+    padding: 50px;
+    text-align: center;
+}
+
+.services-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.service {
+    width: 30%;
+    margin: 10px 0;
+    padding: 10px;
+    box-shadow: 0 4px rgba(0, 0, 0, 0.1);
+    border-radius: 50px;
+    background-color: #fff;
+}
+
+.service img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.service h3 {
+    margin-top: 15px;
+}
+
+.service p {
+    text-align: left;
+    margin-top: 10px;
+}
+
+#about {
+    padding: 50px;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+#about p {
+    margin: 20px 0;
+}
+
+#contact {
+    padding: 50px;
+    text-align: center;
+}
+
+#contact form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#contact label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+#contact input,
+#contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#contact button {
+    padding: 10px;
+    background-color:blue;
+    color:white;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
